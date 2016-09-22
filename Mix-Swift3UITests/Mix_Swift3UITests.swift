@@ -1,14 +1,14 @@
 //
-//  MixUITests.swift
-//  MixUITests
+//  Mix_Swift3UITests.swift
+//  Mix-Swift3UITests
 //
-//  Created by nc-wudb on 16/8/17.
-//  Copyright (c) 2016 wudb. All rights reserved.
+//  Created by nc-wudb on 16/9/20.
+//  Copyright © 2016年 wudb. All rights reserved.
 //
 
 import XCTest
 
-class MixUITests: XCTestCase {
+class Mix_Swift3UITests: XCTestCase {
         
     override func setUp() {
         super.setUp()

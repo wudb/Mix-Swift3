@@ -1,15 +1,15 @@
 //
-//  MixTests.swift
-//  MixTests
+//  Mix_Swift3Tests.swift
+//  Mix-Swift3Tests
 //
-//  Created by nc-wudb on 16/8/17.
-//  Copyright (c) 2016 wudb. All rights reserved.
+//  Created by nc-wudb on 16/9/20.
+//  Copyright © 2016年 wudb. All rights reserved.
 //
 
 import XCTest
-@testable import Mix
+@testable import Mix_Swift3
 
-class MixTests: XCTestCase {
+class Mix_Swift3Tests: XCTestCase {
     
     override func setUp() {
         super.setUp()
@@ -28,7 +28,7 @@ class MixTests: XCTestCase {
     
     func testPerformanceExample() {
         // This is an example of a performance test case.
-        self.measureBlock {
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }

@@ -61,7 +61,7 @@ class ViewController: UITableViewController {
         let sectionTexts = self.cellModels[self.sectionTitles[indexPath.section]]
         if let sections = sectionTexts {
             let record = sections[indexPath.row]
-            let controllerClass = NSClassFromString("Mix." + record.1) as? UIViewController.Type
+            let controllerClass = NSClassFromString("Mix_Swift3." + record.1) as? UIViewController.Type
             if let c = controllerClass {
                 self.navigationController?.pushViewController(c.init(), animated: true)
             }

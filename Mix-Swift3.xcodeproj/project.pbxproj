@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DAAD6081D9106C600BEBBF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD6071D9106C600BEBBF5 /* AppDelegate.swift */; };
+		3DAAD60A1D9106C600BEBBF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD6091D9106C600BEBBF5 /* ViewController.swift */; };
+		3DAAD60D1D9106C600BEBBF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAAD60B1D9106C600BEBBF5 /* Main.storyboard */; };
+		3DAAD60F1D9106C600BEBBF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAAD60E1D9106C600BEBBF5 /* Assets.xcassets */; };
+		3DAAD6121D9106C600BEBBF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAAD6101D9106C600BEBBF5 /* LaunchScreen.storyboard */; };
+		3DAAD61D1D9106C600BEBBF5 /* Mix_Swift3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD61C1D9106C600BEBBF5 /* Mix_Swift3Tests.swift */; };
+		3DAAD6281D9106C600BEBBF5 /* Mix_Swift3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD6271D9106C600BEBBF5 /* Mix_Swift3UITests.swift */; };
+		3DAAD6441D91073C00BEBBF5 /* UIAlertController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD6371D91073C00BEBBF5 /* UIAlertController+Extension.swift */; };
+		3DAAD6451D91073C00BEBBF5 /* CoreText1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD63A1D91073C00BEBBF5 /* CoreText1ViewController.swift */; };
+		3DAAD6461D91073C00BEBBF5 /* TULabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD63B1D91073C00BEBBF5 /* TULabel.swift */; };
+		3DAAD6471D91073C00BEBBF5 /* MixCustomTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD63F1D91073C00BEBBF5 /* MixCustomTextViewController.swift */; };
+		3DAAD6481D91073C00BEBBF5 /* MixLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD6401D91073C00BEBBF5 /* MixLabelViewController.swift */; };
+		3DAAD6491D91073C00BEBBF5 /* MixTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD6411D91073C00BEBBF5 /* MixTextViewController.swift */; };
+		3DAAD64A1D91073C00BEBBF5 /* MixWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAAD6431D91073C00BEBBF5 /* MixWebViewController.swift */; };
+		668F3533C1663A1E0F14D996 /* TUImageAttachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 668F39BA35AB09782939FD1D /* TUImageAttachment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DAAD6191D9106C600BEBBF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DAAD5FC1D9106C600BEBBF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAAD6031D9106C600BEBBF5;
+			remoteInfo = "Mix-Swift3";
+		};
+		3DAAD6241D9106C600BEBBF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DAAD5FC1D9106C600BEBBF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DAAD6031D9106C600BEBBF5;
+			remoteInfo = "Mix-Swift3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DAAD6041D9106C600BEBBF5 /* Mix-Swift3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mix-Swift3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAAD6071D9106C600BEBBF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DAAD6091D9106C600BEBBF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DAAD60C1D9106C600BEBBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DAAD60E1D9106C600BEBBF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DAAD6111D9106C600BEBBF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DAAD6131D9106C600BEBBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAAD6181D9106C600BEBBF5 /* Mix-Swift3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mix-Swift3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAAD61C1D9106C600BEBBF5 /* Mix_Swift3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mix_Swift3Tests.swift; sourceTree = "<group>"; };
+		3DAAD61E1D9106C600BEBBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAAD6231D9106C600BEBBF5 /* Mix-Swift3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mix-Swift3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAAD6271D9106C600BEBBF5 /* Mix_Swift3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mix_Swift3UITests.swift; sourceTree = "<group>"; };
+		3DAAD6291D9106C600BEBBF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAAD6371D91073C00BEBBF5 /* UIAlertController+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIAlertController+Extension.swift"; sourceTree = "<group>"; };
+		3DAAD63A1D91073C00BEBBF5 /* CoreText1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreText1ViewController.swift; sourceTree = "<group>"; };
+		3DAAD63B1D91073C00BEBBF5 /* TULabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TULabel.swift; sourceTree = "<group>"; };
+		3DAAD63F1D91073C00BEBBF5 /* MixCustomTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixCustomTextViewController.swift; sourceTree = "<group>"; };
+		3DAAD6401D91073C00BEBBF5 /* MixLabelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixLabelViewController.swift; sourceTree = "<group>"; };
+		3DAAD6411D91073C00BEBBF5 /* MixTextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixTextViewController.swift; sourceTree = "<group>"; };
+		3DAAD6431D91073C00BEBBF5 /* MixWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MixWebViewController.swift; sourceTree = "<group>"; };
+		668F39BA35AB09782939FD1D /* TUImageAttachment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TUImageAttachment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DAAD6011D9106C600BEBBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAAD6151D9106C600BEBBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAAD6201D9106C600BEBBF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DAAD5FB1D9106C600BEBBF5 = {
+			isa = PBXGroup;
+			children = (
+				3DAAD6061D9106C600BEBBF5 /* Mix-Swift3 */,
+				3DAAD61B1D9106C600BEBBF5 /* Mix-Swift3Tests */,
+				3DAAD6261D9106C600BEBBF5 /* Mix-Swift3UITests */,
+				3DAAD6051D9106C600BEBBF5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DAAD6051D9106C600BEBBF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DAAD6041D9106C600BEBBF5 /* Mix-Swift3.app */,
+				3DAAD6181D9106C600BEBBF5 /* Mix-Swift3Tests.xctest */,
+				3DAAD6231D9106C600BEBBF5 /* Mix-Swift3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DAAD6061D9106C600BEBBF5 /* Mix-Swift3 */ = {
+			isa = PBXGroup;
+			children = (
+				3DAAD6351D91073C00BEBBF5 /* Common */,
+				3DAAD6381D91073C00BEBBF5 /* CoreText */,
+				3DAAD63E1D91073C00BEBBF5 /* TextKit */,
+				3DAAD6421D91073C00BEBBF5 /* WebView */,
+				3DAAD6071D9106C600BEBBF5 /* AppDelegate.swift */,
+				3DAAD6091D9106C600BEBBF5 /* ViewController.swift */,
+				3DAAD60B1D9106C600BEBBF5 /* Main.storyboard */,
+				3DAAD60E1D9106C600BEBBF5 /* Assets.xcassets */,
+				3DAAD6101D9106C600BEBBF5 /* LaunchScreen.storyboard */,
+				3DAAD6131D9106C600BEBBF5 /* Info.plist */,
+			);
+			path = "Mix-Swift3";
+			sourceTree = "<group>";
+		};
+		3DAAD61B1D9106C600BEBBF5 /* Mix-Swift3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3DAAD61C1D9106C600BEBBF5 /* Mix_Swift3Tests.swift */,
+				3DAAD61E1D9106C600BEBBF5 /* Info.plist */,
+			);
+			path = "Mix-Swift3Tests";
+			sourceTree = "<group>";
+		};
+		3DAAD6261D9106C600BEBBF5 /* Mix-Swift3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DAAD6271D9106C600BEBBF5 /* Mix_Swift3UITests.swift */,
+				3DAAD6291D9106C600BEBBF5 /* Info.plist */,
+			);
+			path = "Mix-Swift3UITests";
+			sourceTree = "<group>";
+		};
+		3DAAD6351D91073C00BEBBF5 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3DAAD6361D91073C00BEBBF5 /* TUAlert */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3DAAD6361D91073C00BEBBF5 /* TUAlert */ = {
+			isa = PBXGroup;
+			children = (
+				3DAAD6371D91073C00BEBBF5 /* UIAlertController+Extension.swift */,
+			);
+			path = TUAlert;
+			sourceTree = "<group>";
+		};
+		3DAAD6381D91073C00BEBBF5 /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+				3DAAD6391D91073C00BEBBF5 /* 1 */,
+				3DAAD63C1D91073C00BEBBF5 /* 2 */,
+				3DAAD63D1D91073C00BEBBF5 /* 3 */,
+			);
+			path = CoreText;
+			sourceTree = "<group>";
+		};
+		3DAAD6391D91073C00BEBBF5 /* 1 */ = {
+			isa = PBXGroup;
+			children = (
+				3DAAD63A1D91073C00BEBBF5 /* CoreText1ViewController.swift */,
+				3DAAD63B1D91073C00BEBBF5 /* TULabel.swift */,
+				668F39BA35AB09782939FD1D /* TUImageAttachment.swift */,
+			);
+			path = 1;
+			sourceTree = "<group>";
+		};
+		3DAAD63C1D91073C00BEBBF5 /* 2 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 2;
+			sourceTree = "<group>";
+		};
+		3DAAD63D1D91073C00BEBBF5 /* 3 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = 3;
+			sourceTree = "<group>";
+		};
+		3DAAD63E1D91073C00BEBBF5 /* TextKit */ = {
+			isa = PBXGroup;
+			children = (
+				3DAAD63F1D91073C00BEBBF5 /* MixCustomTextViewController.swift */,
+				3DAAD6401D91073C00BEBBF5 /* MixLabelViewController.swift */,
+				3DAAD6411D91073C00BEBBF5 /* MixTextViewController.swift */,
+			);
+			path = TextKit;
+			sourceTree = "<group>";
+		};
+		3DAAD6421D91073C00BEBBF5 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				3DAAD6431D91073C00BEBBF5 /* MixWebViewController.swift */,
+			);
+			path = WebView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DAAD6031D9106C600BEBBF5 /* Mix-Swift3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAAD62C1D9106C600BEBBF5 /* Build configuration list for PBXNativeTarget "Mix-Swift3" */;
+			buildPhases = (
+				3DAAD6001D9106C600BEBBF5 /* Sources */,
+				3DAAD6011D9106C600BEBBF5 /* Frameworks */,
+				3DAAD6021D9106C600BEBBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mix-Swift3";
+			productName = "Mix-Swift3";
+			productReference = 3DAAD6041D9106C600BEBBF5 /* Mix-Swift3.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DAAD6171D9106C600BEBBF5 /* Mix-Swift3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAAD62F1D9106C600BEBBF5 /* Build configuration list for PBXNativeTarget "Mix-Swift3Tests" */;
+			buildPhases = (
+				3DAAD6141D9106C600BEBBF5 /* Sources */,
+				3DAAD6151D9106C600BEBBF5 /* Frameworks */,
+				3DAAD6161D9106C600BEBBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DAAD61A1D9106C600BEBBF5 /* PBXTargetDependency */,
+			);
+			name = "Mix-Swift3Tests";
+			productName = "Mix-Swift3Tests";
+			productReference = 3DAAD6181D9106C600BEBBF5 /* Mix-Swift3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DAAD6221D9106C600BEBBF5 /* Mix-Swift3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAAD6321D9106C600BEBBF5 /* Build configuration list for PBXNativeTarget "Mix-Swift3UITests" */;
+			buildPhases = (
+				3DAAD61F1D9106C600BEBBF5 /* Sources */,
+				3DAAD6201D9106C600BEBBF5 /* Frameworks */,
+				3DAAD6211D9106C600BEBBF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DAAD6251D9106C600BEBBF5 /* PBXTargetDependency */,
+			);
+			name = "Mix-Swift3UITests";
+			productName = "Mix-Swift3UITests";
+			productReference = 3DAAD6231D9106C600BEBBF5 /* Mix-Swift3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DAAD5FC1D9106C600BEBBF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = wudb;
+				TargetAttributes = {
+					3DAAD6031D9106C600BEBBF5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					3DAAD6171D9106C600BEBBF5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DAAD6031D9106C600BEBBF5;
+					};
+					3DAAD6221D9106C600BEBBF5 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3DAAD6031D9106C600BEBBF5;
+					};
+				};
+			};
+			buildConfigurationList = 3DAAD5FF1D9106C600BEBBF5 /* Build configuration list for PBXProject "Mix-Swift3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DAAD5FB1D9106C600BEBBF5;
+			productRefGroup = 3DAAD6051D9106C600BEBBF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DAAD6031D9106C600BEBBF5 /* Mix-Swift3 */,
+				3DAAD6171D9106C600BEBBF5 /* Mix-Swift3Tests */,
+				3DAAD6221D9106C600BEBBF5 /* Mix-Swift3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DAAD6021D9106C600BEBBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAAD6121D9106C600BEBBF5 /* LaunchScreen.storyboard in Resources */,
+				3DAAD60F1D9106C600BEBBF5 /* Assets.xcassets in Resources */,
+				3DAAD60D1D9106C600BEBBF5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAAD6161D9106C600BEBBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAAD6211D9106C600BEBBF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DAAD6001D9106C600BEBBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAAD64A1D91073C00BEBBF5 /* MixWebViewController.swift in Sources */,
+				3DAAD6491D91073C00BEBBF5 /* MixTextViewController.swift in Sources */,
+				3DAAD6441D91073C00BEBBF5 /* UIAlertController+Extension.swift in Sources */,
+				3DAAD6471D91073C00BEBBF5 /* MixCustomTextViewController.swift in Sources */,
+				3DAAD60A1D9106C600BEBBF5 /* ViewController.swift in Sources */,
+				3DAAD6481D91073C00BEBBF5 /* MixLabelViewController.swift in Sources */,
+				3DAAD6461D91073C00BEBBF5 /* TULabel.swift in Sources */,
+				3DAAD6451D91073C00BEBBF5 /* CoreText1ViewController.swift in Sources */,
+				3DAAD6081D9106C600BEBBF5 /* AppDelegate.swift in Sources */,
+				668F3533C1663A1E0F14D996 /* TUImageAttachment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAAD6141D9106C600BEBBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAAD61D1D9106C600BEBBF5 /* Mix_Swift3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DAAD61F1D9106C600BEBBF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAAD6281D9106C600BEBBF5 /* Mix_Swift3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DAAD61A1D9106C600BEBBF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DAAD6031D9106C600BEBBF5 /* Mix-Swift3 */;
+			targetProxy = 3DAAD6191D9106C600BEBBF5 /* PBXContainerItemProxy */;
+		};
+		3DAAD6251D9106C600BEBBF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DAAD6031D9106C600BEBBF5 /* Mix-Swift3 */;
+			targetProxy = 3DAAD6241D9106C600BEBBF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DAAD60B1D9106C600BEBBF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAAD60C1D9106C600BEBBF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DAAD6101D9106C600BEBBF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAAD6111D9106C600BEBBF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DAAD62A1D9106C600BEBBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DAAD62B1D9106C600BEBBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DAAD62D1D9106C600BEBBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mix-Swift3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wudb.Mix-Swift3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3DAAD62E1D9106C600BEBBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Mix-Swift3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wudb.Mix-Swift3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3DAAD6301D9106C600BEBBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mix-Swift3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wudb.Mix-Swift3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mix-Swift3.app/Mix-Swift3";
+			};
+			name = Debug;
+		};
+		3DAAD6311D9106C600BEBBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Mix-Swift3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wudb.Mix-Swift3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mix-Swift3.app/Mix-Swift3";
+			};
+			name = Release;
+		};
+		3DAAD6331D9106C600BEBBF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Mix-Swift3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wudb.Mix-Swift3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mix-Swift3";
+			};
+			name = Debug;
+		};
+		3DAAD6341D9106C600BEBBF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "Mix-Swift3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wudb.Mix-Swift3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Mix-Swift3";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DAAD5FF1D9106C600BEBBF5 /* Build configuration list for PBXProject "Mix-Swift3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAAD62A1D9106C600BEBBF5 /* Debug */,
+				3DAAD62B1D9106C600BEBBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAAD62C1D9106C600BEBBF5 /* Build configuration list for PBXNativeTarget "Mix-Swift3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAAD62D1D9106C600BEBBF5 /* Debug */,
+				3DAAD62E1D9106C600BEBBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DAAD62F1D9106C600BEBBF5 /* Build configuration list for PBXNativeTarget "Mix-Swift3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAAD6301D9106C600BEBBF5 /* Debug */,
+				3DAAD6311D9106C600BEBBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3DAAD6321D9106C600BEBBF5 /* Build configuration list for PBXNativeTarget "Mix-Swift3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAAD6331D9106C600BEBBF5 /* Debug */,
+				3DAAD6341D9106C600BEBBF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DAAD5FC1D9106C600BEBBF5 /* Project object */;
+}

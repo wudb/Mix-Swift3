@@ -22,7 +22,7 @@ class CoreText1ViewController: UIViewController {
         self.view.addSubview(view)
         
         
-        let attributedText = NSMutableAttributedString(string: "Jacob was a year and a half older than I and seemed to enjoy reading my gestures and translating my needs to adults. He ensured that cartoons were viewed, cereal was served, and that all bubbles were stirred out of any remotely bubbly beverage intended for me. In our one-bedroom apartment in southern New Jersey, we didn’t have many toys. http://wudb.leanote.com/, But I had a big brother and Jacob had a baby sister. We were ignorant of all the pressed plastic playthings we didn’t have. http://www.baidu.com/")
+        let attributedText = NSMutableAttributedString(string: "Jacob was a year and a half older than I and seemed to enjoy reading my gestures and translating my needs to adults. He ensured that cartoons were viewed, cereal was served, and that all bubbles were stirred out of any remotely bubbly beverage intended for me. In our one-bedroom apartment in southern New Jersey, Zhihu, we didn’t have many toys. http://wudb.leanote.com/, But I had a big brother and 😳😊😳😊😳😊😳 Jacob had a baby sister. Jianshu, We were ignorant http://www.baidu.com/ of all the pressed plastic playthings we didn’t have.")
         
         // CoreText支持的属性
 
@@ -59,7 +59,7 @@ class CoreText1ViewController: UIViewController {
         //NSTextAlignmentRight  //右对齐
         //NSTextAlignmentJustified//最后一行自然对齐
         //NSTextAlignmentNatural //默认对齐脚本
-        paragraphStyle.alignment = .center
+        paragraphStyle.alignment = .left
         
         //换行裁剪模式
         //NSLineBreakByWordWrapping = 0,//以空格为边界，保留单词
@@ -78,6 +78,7 @@ class CoreText1ViewController: UIViewController {
         
         
         attributedText.addAttribute(NSParagraphStyleAttributeName, value: paragraphStyle, range: NSRange(location: 0, length: attributedText.length))
+        
         
         
         // CoreText不支持的属性
@@ -101,14 +102,7 @@ class CoreText1ViewController: UIViewController {
         
         // 横向拉伸文本
 //        attributedText.addAttribute(NSExpansionAttributeName, value: 3.0, range: NSMakeRange(110, 10))
-        
-        // 图片附件
-//        let imageAttachment = NSTextAttachment()
-//        imageAttachment.image = UIImage(named: "catanddog")
-//        // 调整图片位置到中间
-//        imageAttachment.bounds = CGRectMake(0, -imageAttachment.image!.size.height / 2, imageAttachment.image!.size.width, imageAttachment.image!.size.height)
-//        attributedText.insertAttributedString(NSAttributedString(attachment: imageAttachment), atIndex: 50)
-        
+
         // 斜体
 //        attributedText.addAttribute(NSObliquenessAttributeName, value: 1, range: NSMakeRange(10, 10))
         
@@ -122,19 +116,29 @@ class CoreText1ViewController: UIViewController {
 //        attributedText.addAttribute(NSShadowAttributeName, value: shadow, range: NSMakeRange(140, 15))
         
         // 链接
-//        attributedText.addAttribute(NSLinkAttributeName, value: "http://www.baidu.com/", range: NSMakeRange(0, 5))
-        
-        
+//        let link = "http://www.qq.com/"
+//        attributedText.addAttribute(NSLinkAttributeName, value: link, range: NSMakeRange(0, link.characters.count))
         
         view.attributedText = attributedText
         
         view.autoDetectLinks = true
+        
+        view.hyperlinkMapper = ["Zhihu": "https://www.zhihu.com/",  "Jianshu": "http://www.jianshu.com/users/906b9252697d/latest_articles"]
         
         view.touchLinkCallback = { [unowned self] link in
             UIAlertController(title: nil, message: nil, preferredStyle: .actionSheet).cancel(title: "Cancel").default_(title: link) { _ in
                 UIApplication.shared.openURL(URL(string: link)!)
                 }.show(parent: self, animated: true)
         }
+
+        // 图片附件
+        let imageName = "catanddog"
+        let image = UIImage(named: imageName)
+        var imageAttachment = TUImageAttachment(name: imageName, location: 230)
+
+        // 调整图片位置到中间
+        imageAttachment.bounds = CGRect(x: 0, y: -image!.size.height / 2, width: image!.size.width, height: image!.size.height)
+        view.imageAttachments = [imageAttachment]
     }
 
     override func didReceiveMemoryWarning() {
