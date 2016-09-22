@@ -258,7 +258,7 @@ class TULabel: UIView {
 
     // 插入图片样式
     func imageAttribute(for attachment: TUImageAttachment) -> NSAttributedString {
-        var imageCallback = CTRunDelegateCallbacks(version: kCTRunDelegateVersion1, dealloc: { (UnsafeMutableRawPointer) in
+        var imageCallback = CTRunDelegateCallbacks(version: kCTRunDelegateVersion1, dealloc: { pointer in
 
         }, getAscent: { pointer -> CGFloat in
             let image = pointer.load(as: UIImage.self)
